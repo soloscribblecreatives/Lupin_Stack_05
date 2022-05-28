@@ -198,7 +198,7 @@ if (typeof(localStorage.getItem('currentslide'))!='undefined' && localStorage.ge
 	
  } 
  
-	if(nextSlideNo <= 10){//number 3 is number of total slides present
+	if(nextSlideNo <= 9){//number 3 is number of total slides present
 	// alert(nextSlideNo);
 	var tempNext = localStorage.getItem(currentContentId+"_"+contentName+"_slideNo_"+nextSlideNo);
 
@@ -302,10 +302,10 @@ if(direction == 'b') {
 //custom slide changes ends here....
 
 	else{
-	if(page_id <= 10){
+	if(page_id <= 9){
 		page_id = page_id + 1;
 		//alert(page_id);
-		if(page_id == 11){
+		if(page_id == 10){
             flag=1;
         }
 	}
@@ -410,9 +410,6 @@ switch(pg_id){
 	break;
 	case 9:
 	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide9/1.jpg" width="1024" height="768" alt=""></div>';
-	break;
-	case 10:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide2.css" media="screen"/><div class="background"><img src="slide10/1.jpg" width="1024" height="768" alt=""></div>';
 	break;
 }
 
