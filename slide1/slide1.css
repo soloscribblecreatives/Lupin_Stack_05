@@ -1,95 +1,69 @@
 * {
-  margin: 0px;
-  padding: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 
 .s1_1 {
-  position: absolute;
-  width: 1024px;
-  height: 768px;
-  z-index: 1;
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	z-index: 1;
 }
 
 .s1_2 {
   position: absolute;
-  left: 199px;
-  top: 254px;
-  width: 183px;
-  height: 46px;
-  animation: fadeInLeft 0.7s;
+  left: 715px;
+  top: 618px;
+  width: 249px;
+  height: 60px;
+  animation: pulse 1s infinite;
   animation-delay: 0.5s;
   animation-fill-mode: both;
-  z-index: 3;
+  z-index: 4;
 }
 
 .s1_3 {
   position: absolute;
-  left: 449px;
-  top: 215px;
-  width: 107px;
-  height: 119px;
-  animation: rotateIn 0.7s;
+  left: 75px;
+  top: 185px;
+  width: 864px;
+  height: 109px;
+  animation: fadeInDown 1s;
   animation-delay: 1.5s;
   animation-fill-mode: both;
-  z-index: 2;
+  z-index: 4;
 }
 
 .s1_4 {
   position: absolute;
-  left: 578px;
-  top: 235px;
-  width: 250px;
-  height: 87px;
-  animation: fadeInRight 0.7s;
-  animation-delay: 1.5s;
-  animation-fill-mode: both;
-  z-index: 2;
+  width: 1024px;
+  height: 768px;
+  display: none;
+  z-index: 10;
 }
 
 .s1_5 {
   position: absolute;
-  left: 144px;
-  top: 417px;
-  width: 736px;
-  height: 90px;
-  animation: fadeInUp 1s;
-  animation-delay: 2.5s;
+  left: 170px;
+  top: 61px;
+  width: 675px;
+  height: 76px;
+  animation: fadeInDown 1s;
+  animation-delay: 0s;
   animation-fill-mode: both;
-  z-index: 2;
+  display: none;
+  z-index: 15;
 }
 
-
-@-webkit-keyframes stampIn {
-	0% {
-		opacity: 0;
-	}
-	10% {
-		transform-origin: 50% 50%;
-		transform: scale(3);
-		opacity: 0.5;
-	}
-	100% {
-		transform: scale(1);
-		opacity: 1;
-	}
-}
-
-@keyframes stampIn {
-	0% {
-		opacity: 0;
-	}
-	10% {
-		transform-origin: 50% 50%;
-		transform: scale(3);
-		opacity: 0.5;
-	}
-	100% {
-		transform: scale(1);
-		opacity: 1;
-	}
-}
-
-.stampIn {
-  -webkit-animation-name: stampIn;
-  animation-name: stampIn;
+.s1_6 {
+  position: absolute;
+  left: 202px;
+  top: 173px;
+  width: 627px;
+  height: 116px;
+  animation: zoomIn 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+  display: none;
+  z-index: 15;
 }
