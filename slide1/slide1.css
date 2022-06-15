@@ -16,8 +16,8 @@
   top: 618px;
   width: 249px;
   height: 60px;
-  animation: pulse 1s infinite;
-  animation-delay: 0.5s;
+  animation: pulse 2s infinite;
+  animation-delay: 0s;
   animation-fill-mode: both;
   z-index: 4;
 }
@@ -29,7 +29,7 @@
   width: 864px;
   height: 109px;
   animation: fadeInDown 1s;
-  animation-delay: 1.5s;
+  animation-delay: 0.5s;
   animation-fill-mode: both;
   z-index: 4;
 }
@@ -62,8 +62,126 @@
   width: 627px;
   height: 116px;
   animation: zoomIn 1s;
-  animation-delay: 0.5s;
+  animation-delay: 1s;
   animation-fill-mode: both;
   display: none;
   z-index: 15;
 }
+
+.s1_7 {
+  position: absolute;
+  left: 257px;
+  top: 433px;
+  width: 91px;
+  height: 152px;
+  animation: flashLight 3s infinite;
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
+  display: none;
+  z-index: 15;
+}
+
+.s1_8 {
+  position: absolute;
+  left: 360px;
+  top: 426px;
+  width: 71px;
+  height: 116px;
+  animation: flashLight 3s infinite;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+  display: none;
+  z-index: 15;
+}
+
+.s1_9 {
+  position: absolute;
+  left: 510px;
+  top: 426px;
+  width: 71px;
+  height: 116px;
+  animation: flashLight 3s infinite;
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
+  display: none;
+  z-index: 15;
+}
+
+.s1_10 {
+  position: absolute;
+  left: 639px;
+  top: 427px;
+  width: 71px;
+  height: 116px;
+  animation: flashLight 3s infinite;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+  display: none;
+  z-index: 15;
+}
+
+.s1_11 {
+  position: absolute;
+  left: 656px;
+  top: 438px;
+  width: 91px;
+  height: 152px;
+  animation: flashLight 3s infinite;
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
+  display: none;
+  z-index: 15;
+}
+
+.s1_12 {
+  position: absolute;
+  left: 526px;
+  top: 473px;
+  width: 91px;
+  height: 152px;
+  animation: flashLight 3s infinite;
+  animation-delay: 0.3s;
+  animation-fill-mode: both;
+  display: none;
+  z-index: 15;
+}
+
+.s1_13 {
+  position: absolute;
+  left: 321px;
+  top: 469px;
+  width: 91px;
+  height: 152px;
+  animation: flashLight 3s infinite;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+  display: none;
+  z-index: 15;
+}
+
+.s1_14 {
+  position: absolute;
+  left: 455px;
+  top: 242px;
+  width: 97px;
+  height: 160px;
+  animation: flashLight 3s infinite;
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
+  display: none;
+  z-index: 15;
+}
+
+
+@keyframes flashLight {
+  0%, 50%, 100% {
+    opacity: 1;
+	transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  25%, 75% {
+    opacity: 0.5;
+	transform: scale3d(0.7, 0.7, 0.7);
+  }
+}
+
