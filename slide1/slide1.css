@@ -1,62 +1,27 @@
 * {
-  margin: 0px;
-  padding: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 
-.s1_1 {
-  position: absolute;
-  width: 1024px;
-  height: 768px;
-  z-index: 1;
+.video1 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	z-index:1;
 }
 
-.s1_2 {
-  position: absolute;
-  left: 668px;
-  top: 70px;
-  width: 216px;
-  height: 72px;
-  animation: fadeInDown 0.7s;
-  animation-delay: 0.3s;
-  animation-fill-mode: both;
-  z-index: 2;
+.button {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index: 999;
 }
 
-.s1_3 {
-  position: absolute;
-  left: 495px;
-  top: 652px;
-  width: 201px;
-  height: 71px;
-  animation: zoomIn 0.5s;
-  animation-delay: 1.3s;
-  animation-fill-mode: both;
-  z-index: 2;
-}
-
-.s1_4 {
-  position: absolute;
-  left: 704px;
-  top: 652px;
-  width: 243px;
-  height: 71px;
-  animation: fadeInRight 0.5s;
-  animation-delay: 1.3s;
-  animation-fill-mode: both;
-  z-index: 2;
-}
-
-
-@keyframes flashIt {
-  from,
-  50%
-   {
-    opacity: 0;
-  }
-
-  25%,
-  75%,
-  to  {
-    opacity: 1;
-  }
+.video2 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index:3;
 }
