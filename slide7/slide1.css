@@ -12,11 +12,11 @@
 
 .s1_2 {
 	position: absolute;
-  left: 670px;
-  top: 441px;
-  width: 354px;
-  height: 238px;
-	animation: slideInRight 0.5s;
+  left: 506px;
+  top: 375px;
+  width: 446px;
+  height: 301px;
+	animation: zoomIn 0.5s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
 	z-index: 5;
