@@ -28,8 +28,8 @@
   top: 200px;
   width: 537px;
   height: 144px;
-	animation: zoomIn 0.5s;
-	animation-delay: 1s;
+	animation: zoomInDown 1s;
+	animation-delay: 0.5s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
