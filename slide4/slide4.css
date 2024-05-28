@@ -24,11 +24,11 @@
 
 .s3 {
 	position: absolute;
-  left: 123px;
-  top: 410px;
-  width: 137px;
-  height: 136px;
-	animation: rotateIn 0.5s;
+  left: 68px;
+  top: 379px;
+  width: 232px;
+  height: 94px;
+	animation: rotateInDownLeft 0.5s;
 	animation-delay: 1s;
 	animation-fill-mode: both;
 	z-index: 5;
@@ -36,48 +36,48 @@
 
 .s4 {
 	position: absolute;
-  left: 86px;
-  top: 556px;
-  width: 211px;
-  height: 109px;
-	animation: zoomInDown 1s;
-	animation-delay: 1s;
+  left: 354px;
+  top: 379px;
+  width: 285px;
+  height: 94px;
+	animation: rotateInDownLeft 0.5s;
+	animation-delay: 2s;
 	animation-fill-mode: both;
 	z-index: 3;
 }
 
 .s5 {
 	position: absolute;
-  left: 442px;
-  top: 410px;
-  width: 137px;
-  height: 136px;
-	animation: rotateIn 0.5s;
-	animation-delay: 2s;
+  left: 700px;
+  top: 379px;
+  width: 247px;
+  height: 94px;
+	animation: rotateInDownLeft 0.5s;
+	animation-delay: 3s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s6 {
 	position: absolute;
-  left: 408px;
-  top: 556px;
-  width: 206px;
-  height: 92px;
-	animation: zoomInDown 1s;
-	animation-delay: 2s;
+  left: 126px;
+  top: 536px;
+  width: 334px;
+  height: 94px;
+	animation: rotateInDownLeft 0.5s;
+	animation-delay: 4s;
 	animation-fill-mode: both;
 	z-index: 3;
 }
 
 .s7 {
 	position: absolute;
-  left: 758px;
-  top: 410px;
-  width: 137px;
-  height: 136px;
-	animation: rotateIn 0.5s;
-	animation-delay: 3s;
+  left: 539px;
+  top: 536px;
+  width: 327px;
+  height: 94px;
+	animation: rotateInDownLeft 0.5s;
+	animation-delay: 5s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
