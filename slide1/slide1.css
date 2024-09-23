@@ -1,87 +1,13 @@
 * {
-	margin: 0px;
-	padding: 0px;
-}
-
-.background {
-	position: absolute;
-	width: 1024px;
-	height: 768px;
-	z-index: 1;
+  margin: 0px;
+  padding: 0px;
 }
 
 .s1 {
-	position: absolute;
-	width: 1024px;
-	height: 768px;
-	z-index: 1;
-}
-
-.s2 {
-	position: absolute;
-  left: 344px;
-  top: 682px;
-  width: 342px;
-  height: 52px;
-	animation: pulse 1s infinite;
-	animation-delay: 0s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s3 {
-	position: absolute;
-  left: 278px;
-  top: 698px;
-  width: 48px;
-  height: 25px;
-	animation: leftRight 1s infinite;
-	animation-delay: 0s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.video {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 1024px;
-	height: 768px;
-	display: none;
-	z-index: 20;
-}
-
-.button1 {
-	position: absolute;
-	left: 238px;
-	top: 642px;
-	width: 521px;
-	height: 126px;
-	z-index: 10;
-}
-
-@keyframes leftRight {
-  0% {  
-	left: 265px;
-	top: 698px;
-	width: 48px;
-	height: 25px;
-	opacity: 1;
-  }
-  
-  50% {
-	left: 278px;
-	top: 698px;
-	width: 48px;
-	height: 25px;
-	opacity: 1;
-  }
-  
-  100% {  
-	left: 265px;
-	top: 698px;
-	width: 48px;
-	height: 25px;
-	opacity: 1;
-  }
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1024px;
+  height: 768px;
+  z-index: 1;
 }

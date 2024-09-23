@@ -1,0 +1,160 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.s1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1024px;
+  height: 768px;
+  z-index: 1;
+}
+
+.s2 {
+  position: absolute;
+  left: 76px;
+  top: 45px;
+  width: 115px;
+  height: 37px;
+  animation: fadeInDownSmall 0.5s;
+  animation-delay: 2.4s;
+  animation-fill-mode: both;
+  z-index: 5;
+}
+
+.s3 {
+  position: absolute;
+  left: 75px;
+  top: 106px;
+  width: 272px;
+  height: 39px;
+  animation: fadeInDownSmall 0.5s;
+  animation-delay: 4.7s;
+  animation-fill-mode: both;
+  z-index: 5;
+}
+
+.s4 {
+	position: absolute;
+  left: 76px;
+  top: 167px;
+  width: 268px;
+  height: 39px;
+  animation: fadeInDownSmall 0.5s;
+  animation-delay: 7.7s;
+  animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s5 {
+	position: absolute;
+  left: 76px;
+  top: 228px;
+  width: 387px;
+  height: 39px;
+  animation: fadeInDownSmall 0.5s;
+  animation-delay: 10.3s;
+  animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s6 {
+	position: absolute;
+  left: 21px;
+  top: 307px;
+  width: 562px;
+  height: 62px;
+	animation: flipInX 0.5s;
+	animation-delay: 12.9s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s7 {
+	position: absolute;
+  left: 534px;
+  top: 291px;
+  width: 55px;
+  height: 106px;
+	animation: flashLong 0.5s;
+	animation-delay: 13.8s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s8 {
+	position: absolute;
+  left: 25px;
+  top: 385px;
+  width: 256px;
+  height: 52px;
+	animation: bounceIn 0.3s;
+	animation-delay: 15s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s9 {
+	position: absolute;
+  left: 297px;
+  top: 386px;
+  width: 162px;
+  height: 51px;
+	animation: bounceIn 0.3s;
+	animation-delay: 16.6s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.option1 {
+  position: absolute;
+  left: 25px;
+  top: 385px;
+  width: 256px;
+  height: 52px;
+  animation: none 1s infinite;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  display: none;
+  z-index: 100;
+}
+
+.option2 {
+  position: absolute;
+  left: 297px;
+  top: 386px;
+  width: 162px;
+  height: 51px;
+  animation: none 1s infinite;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  display: none;
+  z-index: 100;
+}
+
+
+@keyframes flashLong {
+  0%, 40%, 80% {
+    opacity: 0;
+  }
+
+  20%, 60%, 100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInDownSmall {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -10%, 0);
+    transform: translate3d(0, -10%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
