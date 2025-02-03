@@ -1,0 +1,169 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.s1 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	z-index: 1;
+}
+
+.s2 {
+	position: absolute;
+  left: 644px;
+  top: 625px;
+  width: 335px;
+  height: 113px;
+	animation: zoomIn 0.3s;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	transform-origin: right;
+	z-index: 15;
+}
+
+.s3 {
+	position: absolute;
+  left: 429px;
+  top: 680px;
+  width: 162px;
+  height: 24px;
+	animation: leftRight 1s infinite;
+	animation-delay: 0.3s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s4 {
+	position: absolute;
+  left: 343px;
+  top: 651px;
+  width: 257px;
+  height: 84px;
+	animation: zoomIn 0.5s;
+	animation-delay: 1.5s;
+	animation-fill-mode: both;
+	transform-origin: right;
+	display: none;
+	z-index: 5;
+}
+
+.s5 {
+	position: absolute;
+  left: 0px;
+  top: 300px;
+  width: 1024px;
+  height: 87px;
+	animation: revealHorizontal 3s infinite;
+	animation-delay: 0.3s;
+	animation-fill-mode: both;
+	clip: rect(0px,0px,100px,0px);
+	display: none;
+	z-index: 7;
+}
+
+.s6 {
+	position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1024px;
+  height: 724px;
+	animation: flashLong 1s infinite;
+	animation-delay: 0.7s;
+	animation-fill-mode: both;
+	display: none;
+	z-index: 9;
+}
+
+.s7 {
+	position: absolute;
+  left: 357px;
+  top: 82px;
+  width: 310px;
+  height: 451px;
+	animation: pendulum 4s infinite;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	display: none;
+	z-index: 11;
+}
+
+.s8 {
+	position: absolute;
+  left: 268px;
+  top: 289px;
+  width: 475px;
+  height: 150px;
+	animation: zoomIn 0.2s;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	display: none;
+	z-index: 12;
+}
+
+
+@keyframes leftRight {
+  0% {
+  left: 429px;
+  top: 680px;
+  width: 162px;
+  height: 24px;
+  }
+
+  50% {
+  left: 449px;
+  top: 680px;
+  width: 162px;
+  height: 24px;
+  }
+  
+  100% {
+  left: 429px;
+  top: 680px;
+  width: 162px;
+  height: 24px;
+  }
+}
+
+
+@keyframes pendulum {
+  0% {
+	transform: rotateZ(7deg);
+  }
+
+  50% {
+	transform: rotateZ(-2deg);
+  }
+  
+  100% {
+	transform: rotateZ(7deg);
+  }
+}
+
+@keyframes revealHorizontal {
+  0% {
+    clip: rect(0px,0px,100px,0px);
+	opacity: 1;
+  }
+  
+  50% {
+    clip: rect(0px,1024px,100px,0px);
+	opacity: 1;
+  }
+  
+  100% {
+    clip: rect(0px,0px,100px,0px);
+	opacity: 1;
+  }
+}
+
+@keyframes flashLong {
+  0%, 100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}

@@ -1,13 +1,100 @@
-* {
-  margin: 0px;
-  padding: 0px;
+*{
+	margin: 0px;
+	padding: 0px;
 }
 
 .s1 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1024px;
-  height: 768px;
-  z-index: 1;
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	z-index: 1;
+}
+
+.s2 {
+	position: absolute;
+  left: 1px;
+  top: 661px;
+  width: 605px;
+  height: 104px;
+	animation: none 0.5s;
+	animation-delay: 0.2s;
+	animation-fill-mode: both;
+	z-index: 3;
+}
+
+.s3 {
+	position: absolute;
+  left: 55px;
+  top: 96px;
+  width: 477px;
+  height: 637px;
+	animation: swingIt 1s;
+	animation-delay: 0.2s;
+	animation-fill-mode: both;
+	transform-origin: bottom;
+	z-index: 5;
+}
+
+.s4 {
+	position: absolute;
+  left: 421px;
+  top: 121px;
+  width: 76px;
+  height: 77px;
+	animation: zoomIn 0.5s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	transform-origin: left;
+	z-index: 5;
+}
+
+.s5 {
+	position: absolute;
+  left: 508px;
+  top: 110px;
+  width: 398px;
+  height: 194px;
+	animation: fadeInRight 0.5s;
+	animation-delay: 1.5s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s6 {
+	position: absolute;
+  left: 514px;
+  top: 304px;
+  width: 305px;
+  height: 108px;
+	animation: fadeInRight 0.5s;
+	animation-delay: 1.7s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+@keyframes swingIt {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 2deg);
+    transform: rotate3d(0, 0, 1, 2deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -2deg);
+    transform: rotate3d(0, 0, 1, -2deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 2deg);
+    transform: rotate3d(0, 0, 1, 2deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -2deg);
+    transform: rotate3d(0, 0, 1, -2deg);
+  }
+
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
 }
