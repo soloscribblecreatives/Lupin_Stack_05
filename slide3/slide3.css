@@ -76,10 +76,23 @@
 	z-index: 9;
 }
 
-.s7 {
+.s7w {
 	position: absolute;
   left: 341px;
   top: 65px;
+  width: 327px;
+  height: 467px;
+	animation: zoomIn 0.5s;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	display: none;
+	z-index: 11;
+}
+
+.s7 {
+	position: absolute;
+  left: 0px;
+  top: 0px;
   width: 327px;
   height: 467px;
 	animation: pendulum 4s infinite;
@@ -95,7 +108,7 @@
   top: 331px;
   width: 475px;
   height: 150px;
-	animation: zoomIn 0.2s;
+	animation: zoomIn 0.5s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
 	display: none;
