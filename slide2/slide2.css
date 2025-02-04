@@ -17,7 +17,7 @@
   width: 464px;
   height: 146px;
 	animation: fadeInRight 0.5s;
-	animation-delay: 0.2s;
+	animation-delay: 0s;
 	animation-fill-mode: both;
 	z-index: 3;
 }
@@ -29,20 +29,44 @@
   width: 453px;
   height: 136px;
 	animation: fadeInRight 0.5s;
-	animation-delay: 0.4s;
+	animation-delay: 0.2s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s4 {
 	position: absolute;
+  left: 666px;
+  top: 269px;
+  width: 175px;
+  height: 67px;
+	animation: flashLong 2s infinite;
+	animation-delay: 0.7s;
+	animation-fill-mode: both;
+	transform-origin: left;
+	z-index: 5;
+}
+
+.s5 {
+	position: absolute;
   left: 727px;
   top: 649px;
   width: 256px;
   height: 84px;
 	animation: zoomIn 0.5s;
-	animation-delay: 1s;
+	animation-delay: 1.2s;
 	animation-fill-mode: both;
 	transform-origin: left;
 	z-index: 5;
+}
+
+
+@keyframes flashLong {
+  0%,  100% {
+    opacity: 0;
+  }
+
+  25%, 50%, 75% {
+    opacity: 1;
+  }
 }

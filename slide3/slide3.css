@@ -52,9 +52,9 @@
 .s5 {
 	position: absolute;
   left: 0px;
-  top: 300px;
+  top: 299px;
   width: 1024px;
-  height: 87px;
+  height: 89px;
 	animation: revealHorizontal 3s infinite;
 	animation-delay: 0.3s;
 	animation-fill-mode: both;
@@ -78,10 +78,10 @@
 
 .s7 {
 	position: absolute;
-  left: 357px;
-  top: 82px;
-  width: 310px;
-  height: 451px;
+  left: 341px;
+  top: 65px;
+  width: 327px;
+  height: 467px;
 	animation: pendulum 4s infinite;
 	animation-delay: 0s;
 	animation-fill-mode: both;
@@ -91,8 +91,8 @@
 
 .s8 {
 	position: absolute;
-  left: 268px;
-  top: 289px;
+  left: 264px;
+  top: 331px;
   width: 475px;
   height: 150px;
 	animation: zoomIn 0.2s;
