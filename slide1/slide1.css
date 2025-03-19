@@ -3,25 +3,12 @@
 	padding: 0px;
 }
 
-.background {
-	position: absolute;
-	width: 1024px;
-	height: 768px;
-	z-index: 1;
-}
-
 .video1 {
 	position: absolute;
 	width: 1024px;
 	height: 768px;
-	z-index:5;
-}
-
-.button1 {
-	position: absolute;
-	width: 1024px;
-	height: 768px;
-	z-index: 50;
+	background-color: #000;
+	z-index: 5;
 }
 
 .video2 {
@@ -29,53 +16,15 @@
 	width: 1024px;
 	height: 768px;
 	display: none;
-	z-index:10;
+	background-color: #000;
+	z-index: 10;
 }
 
-.button2 {
+.playVid {
 	position: absolute;
-  left: 46px;
-  top: 64px;
-  width: 325px;
-  height: 325px;
-	display: none;
-	z-index: 50;
-}
-
-.video3 {
-	position: absolute;
+	top: 0px;
+	left: 0px;
 	width: 1024px;
 	height: 768px;
-	display: none;
-	z-index:15;
-}
-
-.button3 {
-	position: absolute;
-  left: 48px;
-  top: 66px;
-  width: 640px;
-  height: 643px;
-	display: none;
-	z-index: 45;
-}
-
-.button4 {
-	position: absolute;
-  left: 150px;
-  top: 446px;
-  width: 242px;
-  height: 182px;
-	display: none;
-	z-index: 50;
-}
-
-.button5 {
-	position: absolute;
-  left: 606px;
-  top: 460px;
-  width: 242px;
-  height: 182px;
-	display: none;
-	z-index: 50;
+	z-index: 15;
 }
