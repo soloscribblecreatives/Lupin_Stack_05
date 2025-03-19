@@ -1,100 +1,81 @@
-*{
+* {
 	margin: 0px;
 	padding: 0px;
 }
 
-.s1 {
+.background {
 	position: absolute;
 	width: 1024px;
 	height: 768px;
 	z-index: 1;
 }
 
-.s2 {
+.video1 {
 	position: absolute;
-  left: 1px;
-  top: 661px;
-  width: 605px;
-  height: 104px;
-	animation: none 0.5s;
-	animation-delay: 0.2s;
-	animation-fill-mode: both;
-	z-index: 3;
+	width: 1024px;
+	height: 768px;
+	z-index:5;
 }
 
-.s3 {
+.button1 {
 	position: absolute;
-  left: 55px;
-  top: 96px;
-  width: 477px;
-  height: 637px;
-	animation: swingIt 0.7s;
-	animation-delay: 0s;
-	animation-fill-mode: both;
-	transform-origin: bottom;
-	z-index: 5;
+	width: 1024px;
+	height: 768px;
+	z-index: 50;
 }
 
-.s4 {
+.video2 {
 	position: absolute;
-  left: 421px;
-  top: 121px;
-  width: 76px;
-  height: 77px;
-	animation: zoomIn 0.5s;
-	animation-delay: 0.5s;
-	animation-fill-mode: both;
-	transform-origin: left;
-	z-index: 5;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index:10;
 }
 
-.s5 {
+.button2 {
 	position: absolute;
-  left: 508px;
-  top: 110px;
-  width: 398px;
-  height: 194px;
-	animation: fadeInRight 0.5s;
-	animation-delay: 1s;
-	animation-fill-mode: both;
-	z-index: 5;
+  left: 46px;
+  top: 64px;
+  width: 325px;
+  height: 325px;
+	display: none;
+	z-index: 50;
 }
 
-.s6 {
+.video3 {
 	position: absolute;
-  left: 514px;
-  top: 304px;
-  width: 305px;
-  height: 108px;
-	animation: fadeInRight 0.5s;
-	animation-delay: 1.2s;
-	animation-fill-mode: both;
-	z-index: 5;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index:15;
 }
 
-@keyframes swingIt {
-  20% {
-    -webkit-transform: rotate3d(0, 0, 1, 2deg);
-    transform: rotate3d(0, 0, 1, 2deg);
-  }
+.button3 {
+	position: absolute;
+  left: 48px;
+  top: 66px;
+  width: 640px;
+  height: 643px;
+	display: none;
+	z-index: 45;
+}
 
-  40% {
-    -webkit-transform: rotate3d(0, 0, 1, -2deg);
-    transform: rotate3d(0, 0, 1, -2deg);
-  }
+.button4 {
+	position: absolute;
+  left: 150px;
+  top: 446px;
+  width: 242px;
+  height: 182px;
+	display: none;
+	z-index: 50;
+}
 
-  60% {
-    -webkit-transform: rotate3d(0, 0, 1, 2deg);
-    transform: rotate3d(0, 0, 1, 2deg);
-  }
-
-  80% {
-    -webkit-transform: rotate3d(0, 0, 1, -2deg);
-    transform: rotate3d(0, 0, 1, -2deg);
-  }
-
-  100% {
-    -webkit-transform: rotate3d(0, 0, 1, 0deg);
-    transform: rotate3d(0, 0, 1, 0deg);
-  }
+.button5 {
+	position: absolute;
+  left: 606px;
+  top: 460px;
+  width: 242px;
+  height: 182px;
+	display: none;
+	z-index: 50;
 }
