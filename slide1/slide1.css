@@ -30,7 +30,7 @@
 }
 
 .rotateWheel {
-	animation: rotateInLoop 2s linear 3;
+	animation: rotateInLoop 2.5s linear 2;
 	animation-delay: 0s;
 	animation-fill-mode: both;
 }
